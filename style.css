@@ -1,0 +1,215 @@
+body{
+    background-color: rgb(116, 122, 122);
+}
+.container{
+    position: relative;
+    width: 100%;
+    max-width:1000px;
+    min-height: 1000px;
+    background: #fff;
+    margin-left:130px;
+    display: grid;
+    grid-template-columns:1fr 2fr;
+   
+   
+}
+.left-container{
+    position: relative;
+    background: #031214;
+    
+ 
+}
+img{
+    width:180px;
+    border-radius: 50%;
+    margin-top:25px;
+
+}
+.profile-text h2{
+    color:white;
+    text-align: center;
+    font-weight: bold;
+}
+.profile-text span{
+    
+    font-size:18px;
+    font-weight: normal;
+   
+}
+.profile-text hr{
+    width:295px;
+    margin:15px;
+    opacity:0.4;
+}
+.profile-text h3,.title{
+    color:white;
+    font-weight: bold;
+    margin-left:15px;
+}
+.profile-text .contactinfo{
+    color:white;
+    text-align: justify;
+}
+ .contactinfo .icon{
+    color:rgb(143, 148, 153);
+}
+.profile-text .contactinfo li{
+    margin-top:10px;
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+.education {
+    color:white;
+}
+.education li{
+    margin-bottom:-5px;
+}
+.education h5{
+    color:rgb(169, 172, 175);
+    font-size: 15px;
+    font-weight: bold;
+    margin-top:1px;
+}
+.education h6{
+    font-weight:normal;
+    font-size:15px;
+    margin-top:-10px;
+}
+.education h4{
+    margin-top:-10px;
+}
+.contactinfo.language .percent
+{
+    position: relative;
+    width: 95%;
+    height: 10px;
+    background: #081921;
+    display:block;
+    margin-top: 5px;
+
+}
+.contactinfo.language .percent div
+ {
+     position: absolute;
+     top:0;
+     left:0;
+     height: 100%;
+     background: #8f9091;
+
+ }
+ li{
+     color:white;
+ }
+.text{
+    color:white;
+    font-weight:bold;
+    margin-top:10px;
+}
+p
+{
+    color:#333 ;
+
+}
+.right-container{
+    position: relative;
+    background: #fff;
+    padding: 40px;
+}
+.title2{
+    margin-top:20px;
+    color:#111313;
+    text-transform: uppercase;
+    letter-spacing:1px ;
+    padding-top:20px;
+} 
+.about .box
+{
+    display: flex;
+    flex-direction: row;
+    margin-top:-10px;
+    margin-bottom:-20px;
+    
+ 
+}
+.about .box .text h4
+{
+    text-transform: uppercase;
+    color: #4c5255;
+    font-size: 16px;
+    font-weight:bold;
+    margin-top:5px;
+}
+.about .box .year h5
+{
+    
+   text-transform: uppercase;
+   color: #848c90;
+font-size:15px;
+   font-weight: bold;
+  
+
+}
+.about .box .year
+{
+    margin-top: -10px;
+    min-width: 150px ;
+    
+}
+.skills .box
+{
+    position: relative;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    justify-content: center;
+    align-items: center;
+   
+}
+.skills .box h4
+{
+    text-transform: uppercase;
+    color:#515761 ;
+    font-weight: 500;
+}
+.skills .box .percent
+{
+    position: relative;
+    width: 100%;
+    height: 10px;
+    background: #e0dcdc;
+}
+.skills .box .percent div
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: #031214;
+
+}
+.interest
+{
+    margin-top: 3.5pc;
+}
+.interest ul
+{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.interest ul li
+{
+    list-style: none;
+    color:#333;
+    font-weight: 500;
+    margin:10px 0 ;
+    font-size: 18px;
+}
+.interest ul li .fa
+{
+    color: #6a6e70;
+    font-size: 18px;
+    width: 20px;
+    margin-right: 4px;
+}
